@@ -1,0 +1,2 @@
+dynomodb'ye  power shell üzerinden user ekleme
+aws dynamodb put-item --table-name user --item '{""email"": {""S"": ""cliuser@example.com""}, ""name"": {""S"": ""CLI User""}}' --endpoint-url https://dynamodb.eu-north-1.amazonaws.com
